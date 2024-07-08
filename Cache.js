@@ -6,7 +6,7 @@ class Cache{
     // set key val
     set(key, val){
         this.data.set(key, val)
-        console.log(key,':',val)
+        return null
     }
 
     // get val
@@ -22,7 +22,7 @@ class Cache{
     // update key val
     update(key, newVal){
          this.data.set(key, newVal)
-         console.log('Updated:',key,':',newVal)
+        return null
     }
 
     // delete key

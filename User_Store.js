@@ -25,7 +25,7 @@ class UserStore{
 
     // get cache of user
     getCache(name){
-        this.users.get(name).cache
+        return this.users.get(name).cache
     }
 }
 
